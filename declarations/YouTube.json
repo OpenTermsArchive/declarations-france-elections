@@ -29,6 +29,11 @@
       "fetch": "https://support.google.com/youtube/answer/2802002",
       "select": [".article-container"],
       "remove": [".scClientFeedbackInlineFeedbacklinkroot"]
+    },
+    "Community Guidelines - Violence Incitement": {
+      "fetch": "https://support.google.com/youtube/answer/2802008",
+      "select": [".article-container"],
+      "remove": [".scClientFeedbackInlineFeedbacklinkroot"]
     }
   }
 }
