@@ -49,6 +49,11 @@
       "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/regulated-goods/",
       "select": ["._9nrm", "._9q49", "._9p7c"],
       "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
+    },
+    "Community Guidelines - Harassment": {
+      "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/bullying-harassment/",
+      "select": ["._9nrm", "._9q49", "._9p7c"],
+      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
     }
   }
 }
