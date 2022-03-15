@@ -59,6 +59,11 @@
       "fetch": "https://support.google.com/youtube/answer/10834785",
       "select": [".article-container"],
       "remove": [".scClientFeedbackInlineFeedbacklinkroot"]
+    },
+    "Community Guidelines - Adult Nudity": {
+      "fetch": "https://support.google.com/youtube/answer/2802002",
+      "select": [".article-container"],
+      "remove": [".scClientFeedbackInlineFeedbacklinkroot"]
     }
   }
 }
