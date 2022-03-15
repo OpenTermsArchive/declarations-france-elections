@@ -74,6 +74,11 @@
       "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/sexual-solicitation/",
       "select": ["._9nrm", "._9q49", "._9p7c"],
       "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
+    },
+    "Community Guidelines - Inauthentic Behaviour and Platform Manipulation": {
+      "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/inauthentic-behavior/",
+      "select": ["._9nrm", "._9q49", "._9p7c"],
+      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
     }
   }
 }
