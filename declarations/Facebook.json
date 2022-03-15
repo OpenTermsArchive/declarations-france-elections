@@ -15,6 +15,12 @@
       "filter": ["removeEmptyAnchorsLinks", "removeTrackingIDs"],
       "executeClientScripts": true
     },
+    "Community Guidelines": {
+      "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards",
+      "select": ["._9ntw"],
+      "remove": ["._9nxl", "._9ntv", ".img"],
+      "executeClientScripts": true
+    },
     "Community Guidelines - Self-harm": {
       "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/suicide-self-injury/",
       "select": ["._9nrm", "._9q49", "._9p7c"],
