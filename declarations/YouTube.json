@@ -64,6 +64,11 @@
       "fetch": "https://support.google.com/youtube/answer/2802002",
       "select": [".article-container"],
       "remove": [".scClientFeedbackInlineFeedbacklinkroot"]
+    },
+    "Community Guidelines - Inauthentic Behaviour and Platform Manipulation": {
+      "fetch": "https://support.google.com/youtube/answer/3399767",
+      "select": [".article-container"],
+      "remove": [".scClientFeedbackInlineFeedbacklinkroot"]
     }
   }
 }
