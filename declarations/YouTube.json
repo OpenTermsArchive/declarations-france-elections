@@ -34,6 +34,11 @@
       "fetch": "https://support.google.com/youtube/answer/2802008",
       "select": [".article-container"],
       "remove": [".scClientFeedbackInlineFeedbacklinkroot"]
+    },
+    "Community Guidelines - Violent Organizations": {
+      "fetch": "https://support.google.com/youtube/answer/9229472",
+      "select": [".article-container"],
+      "remove": [".scClientFeedbackInlineFeedbacklinkroot"]
     }
   }
 }
