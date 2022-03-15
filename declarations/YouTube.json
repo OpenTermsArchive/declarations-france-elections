@@ -44,6 +44,11 @@
       "fetch": "https://support.google.com/youtube/answer/2801973",
       "select": [".article-container"],
       "remove": [".scClientFeedbackInlineFeedbacklinkroot"]
+    },
+    "Community Guidelines - Regulated Goods": {
+      "fetch": "https://support.google.com/youtube/answer/9229611",
+      "select": [".article-container"],
+      "remove": [".scClientFeedbackInlineFeedbacklinkroot"]
     }
   }
 }
