@@ -18,98 +18,82 @@
     "Community Guidelines": {
       "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards",
       "select": ["._9ntw"],
-      "remove": ["._9nxl", "._9ntv", ".img"],
-      "executeClientScripts": true
+      "remove": ["._9nxl", "._9ntv", ".img"]
     },
     "Community Guidelines - Self-harm": {
       "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/suicide-self-injury/",
       "select": ["._9nrm", "._9q49", "._9p7c"],
-      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"],
-      "executeClientScripts": true
+      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
     },
     "Community Guidelines - Hate Speech": {
       "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/hate-speech/",
       "select": ["._9nrm", "._9q49", "._9p7c"],
-      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"],
-      "executeClientScripts": true
+      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
     },
     "Community Guidelines - Child Sexual Exploitation": {
       "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/child-sexual-exploitation-abuse-nudity/",
       "select": ["._9nrm", "._9q49", "._9p7c"],
-      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"],
-      "executeClientScripts": true
+      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
     },
     "Community Guidelines - Violence Incitement": {
       "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/violence-incitement/",
       "select": ["._9nrm", "._9q49", "._9p7c"],
-      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"],
-      "executeClientScripts": true
+      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
     },
     "Community Guidelines - Violent Organizations": {
       "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/dangerous-individuals-organizations/",
       "select": ["._9nrm", "._9q49", "._9p7c"],
-      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"],
-      "executeClientScripts": true
+      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
     },
     "Community Guidelines - Spam": {
       "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/spam/",
       "select": ["._9nrm", "._9q49", "._9p7c"],
-      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"],
-      "executeClientScripts": true
+      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
     },
     "Community Guidelines - Regulated Goods": {
       "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/regulated-goods/",
       "select": ["._9nrm", "._9q49", "._9p7c"],
-      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"],
-      "executeClientScripts": true
+      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
     },
     "Community Guidelines - Harassment": {
       "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/bullying-harassment/",
       "select": ["._9nrm", "._9q49", "._9p7c"],
-      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"],
-      "executeClientScripts": true
+      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
     },
     "Community Guidelines - Misinformation": {
       "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/misinformation/",
       "select": ["._9nrm", "._9q49", "._9p7c"],
-      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"],
-      "executeClientScripts": true
+      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
     },
     "Community Guidelines - Intellectual Property": {
       "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/intellectual-property/",
       "select": ["._9nrm", "._9q49", "._9p7c"],
-      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"],
-      "executeClientScripts": true
+      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
     },
     "Community Guidelines - Adult Nudity": {
       "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/adult-nudity-sexual-activity/",
       "select": ["._9nrm", "._9q49", "._9p7c"],
-      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"],
-      "executeClientScripts": true
+      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
     },
     "Community Guidelines - Sexual Solicitation": {
       "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/sexual-solicitation/",
       "select": ["._9nrm", "._9q49", "._9p7c"],
-      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"],
-      "executeClientScripts": true
+      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
     },
     "Community Guidelines - Inauthentic Behaviour and Platform Manipulation": {
       "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/inauthentic-behavior/",
       "select": ["._9nrm", "._9q49", "._9p7c"],
-      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"],
-      "executeClientScripts": true
+      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
     },
     "Community Guidelines - Privacy Violations": {
       "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/privacy-violations-image-privacy-rights/",
       "select": ["._9nrm", "._9q49", "._9p7c"],
-      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"],
-      "executeClientScripts": true
+      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
     },
     "Community Guidelines - Deceased Users": {
       "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/memorialization/",
       "select": ["._9nrm", "._9q49", "._9p7c"],
-      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"],
-      "executeClientScripts": true
+      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
     }
   }
 }
