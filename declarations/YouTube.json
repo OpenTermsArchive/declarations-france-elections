@@ -1,0 +1,14 @@
+{
+  "name": "YouTube",
+  "documents": {
+    "Privacy Policy": {
+      "fetch": "https://policies.google.com/privacy?hl=fr",
+      "select": "div[role=\"article\"]",
+      "remove": "img[src$='.svg'], img[src^='data:image/svg+xml']"
+    },
+    "Terms of Service": {
+      "fetch": "https://www.youtube.com/t/terms",
+      "select": "div#main-content"
+    }
+  }
+}
