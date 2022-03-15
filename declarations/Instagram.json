@@ -8,6 +8,10 @@
     "Terms of Service": {
       "fetch": "https://help.instagram.com/581066165581870",
       "select": [".bk"]
+    },
+    "Community Guidelines": {
+      "fetch": "https://help.instagram.com/477434105621119",
+      "select": [".bj", ".bl"]
     }
   }
 }
