@@ -9,6 +9,11 @@
     "Terms of Service": {
       "fetch": "https://www.youtube.com/t/terms",
       "select": "div#main-content"
+    },
+    "Community Guidelines": {
+      "fetch": "https://www.youtube.com/intl/ALL_fr/howyoutubeworks/policies/community-guidelines/",
+      "select": [".ytr-hero__details", ".ytr-article__content-wrapper"],
+      "remove": [".ytr-hero__eyebrow", ".ytr-link > svg"]
     }
   }
 }
