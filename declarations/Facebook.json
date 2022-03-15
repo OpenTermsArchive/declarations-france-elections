@@ -69,6 +69,11 @@
       "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/adult-nudity-sexual-activity/",
       "select": ["._9nrm", "._9q49", "._9p7c"],
       "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
+    },
+    "Community Guidelines - Sexual Solicitation": {
+      "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/sexual-solicitation/",
+      "select": ["._9nrm", "._9q49", "._9p7c"],
+      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
     }
   }
 }
