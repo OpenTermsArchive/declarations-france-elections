@@ -68,6 +68,11 @@
       ],
       "filter": ["removeTrackingIDs"],
       "executeClientScripts": true
+    },
+    "Community Guidelines - Adult Nudity": {
+      "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/adult-nudity-sexual-activity/",
+      "select": ["._9nrm", "._9q49", "._9p7c"],
+      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
     }
   }
 }
