@@ -34,6 +34,11 @@
       "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/violence-incitement/",
       "select": ["._9nrm", "._9q49", "._9p7c"],
       "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
+    },
+    "Community Guidelines - Violent Organizations": {
+      "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/dangerous-individuals-organizations/",
+      "select": ["._9nrm", "._9q49", "._9p7c"],
+      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
     }
   }
 }
