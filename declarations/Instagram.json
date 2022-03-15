@@ -12,6 +12,11 @@
     "Community Guidelines": {
       "fetch": "https://help.instagram.com/477434105621119",
       "select": [".bj", ".bl"]
+    },
+    "Community Guidelines - Self-harm": {
+      "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/suicide-self-injury/",
+      "select": ["._9nrm", "._9q49", "._9p7c"],
+      "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
     }
   }
 }
