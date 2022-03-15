@@ -14,6 +14,11 @@
       "fetch": "https://www.youtube.com/intl/ALL_fr/howyoutubeworks/policies/community-guidelines/",
       "select": [".ytr-hero__details", ".ytr-article__content-wrapper"],
       "remove": [".ytr-hero__eyebrow", ".ytr-link > svg"]
+    },
+    "Community Guidelines - Self-harm": {
+      "fetch": "https://support.google.com/youtube/answer/2802245",
+      "select": [".article-container"],
+      "remove": [".scClientFeedbackInlineFeedbacklinkroot"]
     }
   }
 }
