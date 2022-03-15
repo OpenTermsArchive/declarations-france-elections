@@ -19,6 +19,11 @@
       "fetch": "https://support.google.com/youtube/answer/2802245",
       "select": [".article-container"],
       "remove": [".scClientFeedbackInlineFeedbacklinkroot"]
+    },
+    "Community Guidelines - Hate Speech": {
+      "fetch": "https://support.google.com/youtube/answer/2801939",
+      "select": [".article-container"],
+      "remove": [".scClientFeedbackInlineFeedbacklinkroot"]
     }
   }
 }
