@@ -57,6 +57,17 @@
       "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/bullying-harassment/",
       "select": ["._9nrm", "._9q49", "._9p7c"],
       "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
+    },
+    "Community Guidelines - Intellectual Property": {
+      "fetch": "https://help.instagram.com/126382350847838",
+      "select": ["div[role=\"main\"]"],
+      "remove": [
+        "div[aria-label=\"Copier le lien\"]",
+        "[id='Articles connexes']",
+        "fieldset"
+      ],
+      "filter": ["removeTrackingIDs"],
+      "executeClientScripts": true
     }
   }
 }
