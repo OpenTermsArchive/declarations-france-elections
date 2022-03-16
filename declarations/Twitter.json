@@ -102,6 +102,15 @@
         ".b24-share-tweet",
         ".b01__headline.twtr-type--headline-md.inherit"
       ]
+    },
+    "Community Guidelines - Inauthentic Behaviour and Platform Manipulation": {
+      "fetch": "https://help.twitter.com/fr/rules-and-policies/platform-manipulation",
+      "select": ["#twtr-main"],
+      "remove": [
+        ".u11__breadcrumbs",
+        ".b24-share-tweet",
+        ".b01__headline.twtr-type--headline-md.inherit"
+      ]
     }
   }
 }
