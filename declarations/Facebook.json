@@ -30,7 +30,7 @@
       "select": ["._9nrm", "._9q49", "._9p7c"],
       "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
     },
-    "Community Guidelines - Child Sexual Exploitation": {
+    "Community Guidelines - Child Exploitation": {
       "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/child-sexual-exploitation-abuse-nudity/",
       "select": ["._9nrm", "._9q49", "._9p7c"],
       "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
@@ -80,7 +80,7 @@
       "select": ["._9nrm", "._9q49", "._9p7c"],
       "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
     },
-    "Community Guidelines - Inauthentic Behaviour and Platform Manipulation": {
+    "Community Guidelines - Platform Manipulation": {
       "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/inauthentic-behavior/",
       "select": ["._9nrm", "._9q49", "._9p7c"],
       "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
