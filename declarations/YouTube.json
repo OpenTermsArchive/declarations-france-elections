@@ -26,7 +26,7 @@
       "remove": [".scClientFeedbackInlineFeedbacklinkroot"]
     },
     "Community Guidelines - Child Sexual Exploitation": {
-      "fetch": "https://support.google.com/youtube/answer/2802002",
+      "fetch": "https://support.google.com/youtube/answer/2801999",
       "select": [".article-container"],
       "remove": [".scClientFeedbackInlineFeedbacklinkroot"]
     },
