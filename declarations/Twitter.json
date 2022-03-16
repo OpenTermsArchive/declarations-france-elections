@@ -39,6 +39,15 @@
         ".b24-share-tweet",
         ".b01__headline.twtr-type--headline-md.inherit"
       ]
+    },
+    "Community Guidelines - Child Sexual Exploitation": {
+      "fetch": "https://help.twitter.com/fr/rules-and-policies/sexual-exploitation-policy",
+      "select": ["#twtr-main"],
+      "remove": [
+        ".u11__breadcrumbs",
+        ".b24-share-tweet",
+        ".b01__headline.twtr-type--headline-md.inherit"
+      ]
     }
   }
 }
