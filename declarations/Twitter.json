@@ -120,6 +120,15 @@
         ".b24-share-tweet",
         ".b01__headline.twtr-type--headline-md.inherit"
       ]
+    },
+    "Deceased Users": {
+      "fetch": "https://help.twitter.com/fr/rules-and-policies/contact-twitter-about-media-on-a-deceased-family-members-account",
+      "select": ["#twtr-main"],
+      "remove": [
+        ".u11__breadcrumbs",
+        ".b24-share-tweet",
+        ".b01__headline.twtr-type--headline-md.inherit"
+      ]
     }
   }
 }
