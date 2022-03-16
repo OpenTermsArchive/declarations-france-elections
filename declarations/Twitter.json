@@ -129,6 +129,15 @@
         ".b24-share-tweet",
         ".b01__headline.twtr-type--headline-md.inherit"
       ]
+    },
+    "Community Guidelines": {
+      "fetch": "https://help.twitter.com/fr/rules-and-policies/twitter-rules",
+      "select": ["#twtr-main"],
+      "remove": [
+        ".u11__breadcrumbs",
+        ".b24-share-tweet",
+        ".b01__headline.twtr-type--headline-md.inherit"
+      ]
     }
   }
 }
