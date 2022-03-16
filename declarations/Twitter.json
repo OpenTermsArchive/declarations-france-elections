@@ -94,7 +94,7 @@
         ".b01__headline.twtr-type--headline-md.inherit"
       ]
     },
-    "Community Guidelines - Intellectual Property": {
+    "Copyright Claims Policy": {
       "fetch": "https://help.twitter.com/fr/rules-and-policies/copyright-policy",
       "select": ["#twtr-main"],
       "remove": [
