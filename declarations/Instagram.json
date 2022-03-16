@@ -53,7 +53,7 @@
       "select": ["._9nrm", "._9q49", "._9p7c"],
       "remove": ["._9p72", "svg", "._9ooi", "._9q3_"]
     },
-    "Community Guidelines - Intellectual Property": {
+    "Copyright Claims Policy": {
       "fetch": "https://help.instagram.com/126382350847838",
       "select": ["div[role=\"main\"]"],
       "remove": [
