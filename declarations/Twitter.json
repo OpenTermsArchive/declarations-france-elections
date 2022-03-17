@@ -49,7 +49,7 @@
         ".b01__headline.twtr-type--headline-md.inherit"
       ]
     },
-    "Community Guidelines - Child Sexual Exploitation": {
+    "Community Guidelines - Child Exploitation": {
       "fetch": "https://help.twitter.com/fr/rules-and-policies/sexual-exploitation-policy",
       "select": ["#twtr-main"],
       "remove": [
@@ -58,7 +58,7 @@
         ".b01__headline.twtr-type--headline-md.inherit"
       ]
     },
-    "Community Guidelines - Violent Incitement": {
+    "Community Guidelines - Violence Incitement": {
       "fetch": "https://help.twitter.com/fr/rules-and-policies/glorification-of-violence",
       "select": ["#twtr-main"],
       "remove": [
@@ -103,7 +103,7 @@
         ".b01__headline.twtr-type--headline-md.inherit"
       ]
     },
-    "Community Guidelines - Inauthentic Behaviour and Platform Manipulation": {
+    "Community Guidelines - Platform Manipulation": {
       "fetch": "https://help.twitter.com/fr/rules-and-policies/platform-manipulation",
       "select": ["#twtr-main"],
       "remove": [
