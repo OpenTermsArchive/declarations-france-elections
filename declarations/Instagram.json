@@ -7,7 +7,8 @@
     },
     "Terms of Service": {
       "fetch": "https://help.instagram.com/581066165581870",
-      "select": ["#cms-help-content-results > div > div:first-child"]
+      "select": ["#cms-help-content-results > div > div:first-child"],
+      "filter": ["removeEQueryParam"]
     },
     "Community Guidelines": {
       "fetch": "https://help.instagram.com/477434105621119",
