@@ -2,9 +2,9 @@
 
 These services declarations are maintained and tracked by [Open Terms Archive](https://opentermsarchive.org).
 
-These service declarations are consumed by the [Open Terms Archive engine](https://github.com/ambanum/OpenTermsArchive). See the Open Terms Archive [contribution guidelines](https://github.com/OpenTermsArchive/services-all/blob/main/CONTRIBUTING.md) to learn how to add and update services or documents.
+These service declarations are consumed by the [Open Terms Archive engine](https://github.com/ambanum/OpenTermsArchive). See the Open Terms Archive [contribution guidelines](https://github.com/OpenTermsArchive/contrib-declarations/blob/main/CONTRIBUTING.md) to learn how to add and update services or documents.
 
-You can [explore the tracked versions](https://github.com/OpenTermsArchive/versions-france-elections) interactively or [download them as a dataset](https://github.com/OpenTermsArchive/versions-france-elections/releases) in the `OpenTermsArchive/versions-france-elections` repository.
+You can [explore the tracked versions](https://github.com/OpenTermsArchive/france-elections-versions) interactively or [download them as a dataset](https://github.com/OpenTermsArchive/france-elections-versions/releases) in the `OpenTermsArchive/france-elections-versions` repository.
 
 ## Scope
 
