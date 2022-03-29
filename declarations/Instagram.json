@@ -60,7 +60,12 @@
       "remove": [
         "div[aria-label=\"Copier le lien\"]",
         "[id='Articles connexes']",
-        "fieldset"
+        "fieldset",
+        "._41of",
+        "#u_0_30_pB",
+        "#u_0_6f_HN",
+        "#u_0_6j_j9",
+        "#u_0_8z_4o"
       ],
       "filter": ["removeTrackingIDs"],
       "executeClientScripts": true
@@ -81,7 +86,12 @@
       "remove": [
         "div[aria-label=\"Copier le lien\"]",
         "[id='Articles connexes']",
-        "fieldset"
+        "fieldset",
+        "._41of",
+        "#u_0_30_pB",
+        "#u_0_6f_HN",
+        "#u_0_6j_j9",
+        "#u_0_8z_4o"
       ],
       "filter": ["removeTrackingIDs"],
       "executeClientScripts": true
