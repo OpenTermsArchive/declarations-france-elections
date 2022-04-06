@@ -59,7 +59,9 @@
       "select": ["div[role=\"main\"]"],
       "remove": [
         "div[aria-label=\"Copier le lien\"]",
+        "div[aria-label=\"Copy link\"]",
         "[id='Articles connexes']",
+        "[id='Related Articles']",
         "fieldset"
       ],
       "filter": ["removeTrackingIDs"],
@@ -80,7 +82,9 @@
       "select": ["div[role=\"main\"]"],
       "remove": [
         "div[aria-label=\"Copier le lien\"]",
+        "div[aria-label=\"Copy link\"]",
         "[id='Articles connexes']",
+        "[id='Related Articles']",
         "fieldset"
       ],
       "filter": ["removeTrackingIDs"],
