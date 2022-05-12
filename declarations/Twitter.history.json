@@ -6,5 +6,24 @@
       "remove": [".p05-chapter-navigation", "[style='display: none;']"],
       "validUntil": "2022-04-30T07:59:00.000Z"
     }
+  ],
+  "Privacy Policy": [
+    {
+      "fetch": "https://twitter.com/fr/privacy",
+      "remove": [
+        ".twtr-icon--base",
+        ".p05-chapter-navigation",
+        "[style='display: none;']",
+        ".twtr-overlay__icon",
+        ".p21-hidden-content"
+      ],
+      "select": [
+        ".p02-statement-masthead",
+        ".p03-scrolling-checklist",
+        ".p22-chapters-container",
+        ".cr01-section"
+      ],
+      "validUntil": "2022-04-30T07:59:00.000Z"
+    }
   ]
 }
