@@ -2,7 +2,7 @@
   "name": "Instagram",
   "documents": {
     "Privacy Policy": {
-      "fetch": "https://help.instagram.com/519522125107875",
+      "fetch": "https://help.instagram.com/519522125107875/?maybe_redirect_pol=0",
       "select": [
         "#cms-help-content-results"
       ]
