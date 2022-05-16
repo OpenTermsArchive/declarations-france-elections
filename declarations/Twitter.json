@@ -3,9 +3,10 @@
   "documents": {
     "Terms of Service": {
       "fetch": "https://twitter.com/fr/tos",
-      "select": [
-        "#twtr-main"
-      ],
+      "select": {
+        "startBefore": "#current",
+        "endBefore": ".u02"
+      },
       "remove": [
         ".ct01__background",
         ".ct07__sidebar",
