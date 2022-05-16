@@ -4,16 +4,19 @@
     "Terms of Service": {
       "fetch": "https://twitter.com/fr/tos",
       "select": [
-        ".p22-chapters-container"
+        "#twtr-main"
       ],
       "remove": [
-        ".p05-chapter-navigation",
-        "[style='display: none;']"
+        ".ct01__background",
+        ".ct07__sidebar",
+        ".ct07__dropdown-wrapper"
       ]
     },
     "Privacy Policy": {
       "fetch": "https://twitter.com/fr/privacy",
-      "select": ["#twtr-main"],
+      "select": [
+        "#twtr-main"
+      ],
       "remove": [
         ".ct01__background",
         "[aria-hidden=\"true\"]",
@@ -79,6 +82,17 @@
     },
     "Community Guidelines - Violent Organizations": {
       "fetch": "https://help.twitter.com/fr/rules-and-policies/violent-groups",
+      "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".u11__breadcrumbs",
+        ".b24-share-tweet",
+        ".b01__headline.twtr-type--headline-md.inherit"
+      ]
+    },
+    "Community Guidelines - Spam": {
+      "fetch": "https://help.twitter.com/fr/rules-and-policies/platform-manipulation",
       "select": [
         "#twtr-main"
       ],
