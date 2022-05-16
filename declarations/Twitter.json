@@ -8,22 +8,20 @@
         "endBefore": ".u02"
       },
       "remove": [
-        ".ct01__background",
         ".ct07__sidebar",
         ".ct07__dropdown-wrapper"
       ]
     },
     "Privacy Policy": {
       "fetch": "https://twitter.com/fr/privacy",
-      "select": [
-        "#twtr-main"
-      ],
+      "select": {
+        "startBefore": "#old-policy",
+        "endBefore": ".u02"
+      },
       "remove": [
-        ".ct01__background",
+        ".ct17-banner-container",
         "[aria-hidden=\"true\"]",
-        ".twtr-hidden--lg",
-        ".b04__image",
-        ".ct17__background"
+        ".twtr-hidden--lg"
       ]
     },
     "Community Guidelines": {
