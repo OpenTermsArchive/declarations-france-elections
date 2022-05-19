@@ -4,10 +4,13 @@
     "Terms of Service": {
       "fetch": "https://twitter.com/fr/tos",
       "select": {
-        "startBefore": "#current",
-        "endBefore": ".u02"
+        "startBefore": ".twtr-type--headline-xxxxl",
+        "endBefore": ".twtr-type--headline-xxxl"
       },
       "remove": [
+        "[aria-hidden=\"true\"]",
+        ".twtr-hidden--lg",
+        ".ct01__background",
         ".ct07__sidebar",
         ".ct07__dropdown-wrapper"
       ]
@@ -15,156 +18,16 @@
     "Privacy Policy": {
       "fetch": "https://twitter.com/fr/privacy",
       "select": {
-        "startBefore": "#old-policy",
-        "endBefore": ".u02"
+        "startBefore": ".twtr-type--headline-xxxxl",
+        "endBefore": "#old-policy"
       },
       "remove": [
-        ".ct17-banner-container",
         "[aria-hidden=\"true\"]",
-        ".twtr-hidden--lg"
-      ]
-    },
-    "Community Guidelines": {
-      "fetch": "https://help.twitter.com/fr/rules-and-policies/twitter-rules",
-      "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
-      ]
-    },
-    "Community Guidelines - Self-harm": {
-      "fetch": "https://help.twitter.com/fr/rules-and-policies/glorifying-self-harm",
-      "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
-      ]
-    },
-    "Community Guidelines - Hate Speech": {
-      "fetch": "https://help.twitter.com/fr/rules-and-policies/hateful-conduct-policy",
-      "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
-      ]
-    },
-    "Community Guidelines - Child Exploitation": {
-      "fetch": "https://help.twitter.com/fr/rules-and-policies/sexual-exploitation-policy",
-      "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
-      ]
-    },
-    "Community Guidelines - Violence Incitement": {
-      "fetch": "https://help.twitter.com/fr/rules-and-policies/glorification-of-violence",
-      "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
-      ]
-    },
-    "Community Guidelines - Violent Organizations": {
-      "fetch": "https://help.twitter.com/fr/rules-and-policies/violent-groups",
-      "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
-      ]
-    },
-    "Community Guidelines - Spam": {
-      "fetch": "https://help.twitter.com/fr/rules-and-policies/platform-manipulation",
-      "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
-      ]
-    },
-    "Community Guidelines - Regulated Goods": {
-      "fetch": "https://help.twitter.com/fr/rules-and-policies/regulated-goods-services",
-      "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
-      ]
-    },
-    "Community Guidelines - Harassment": {
-      "fetch": "https://help.twitter.com/fr/rules-and-policies/abusive-behavior",
-      "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
-      ]
-    },
-    "Community Guidelines - Platform Manipulation": {
-      "fetch": "https://help.twitter.com/fr/rules-and-policies/platform-manipulation",
-      "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
-      ]
-    },
-    "Community Guidelines - Privacy Violations": {
-      "fetch": "https://help.twitter.com/fr/rules-and-policies/personal-information",
-      "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
-      ]
-    },
-    "Copyright Claims Policy": {
-      "fetch": "https://help.twitter.com/fr/rules-and-policies/copyright-policy",
-      "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
-      ]
-    },
-    "Deceased Users": {
-      "fetch": "https://help.twitter.com/fr/rules-and-policies/contact-twitter-about-media-on-a-deceased-family-members-account",
-      "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".u11__breadcrumbs",
-        ".b24-share-tweet",
-        ".b01__headline.twtr-type--headline-md.inherit"
+        ".twtr-hidden--lg",
+        ".ct01__background",
+        ".ct17__background",
+        ".ct07__sidebar",
+        ".ct07__dropdown-wrapper"
       ]
     }
   }
