@@ -1,0 +1,15 @@
+{
+  "Community Guidelines": [
+    {
+      "fetch": "https://fr.linkedin.com/legal/professional-community-policies",
+      "select": [
+        "main"
+      ],
+      "remove": [
+        ".banner__image-container",
+        ".component-standaloneImage"
+      ],
+      "validUntil": "2022-03-16T16:02:30+01:00"
+    }
+  ]
+}

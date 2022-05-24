@@ -19,7 +19,7 @@
       ]
     },
     "Community Guidelines": {
-      "fetch": "https://fr.linkedin.com/legal/professional-community-policies",
+      "fetch": "https://www.linkedin.com/legal/professional-community-policies",
       "select": [
         "main"
       ],
