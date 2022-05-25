@@ -8,7 +8,7 @@
       ],
       "remove": [
         ".callout > svg",
-        ".expandable-section__header",
+        "[aria-controls=\"expandableSection\"]",
         ".banner__image-container "
       ]
     },
