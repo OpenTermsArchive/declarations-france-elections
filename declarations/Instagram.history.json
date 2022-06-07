@@ -1,0 +1,11 @@
+{
+  "Privacy Policy": [
+    {
+      "fetch": "https://help.instagram.com/519522125107875",
+      "select": [
+        "#cms-help-content-results"
+      ],
+      "validUntil": "2022-05-28T12:52:00.000Z"
+    }
+  ]
+}

@@ -4,7 +4,10 @@
     "Privacy Policy": {
       "fetch": "https://help.instagram.com/519522125107875",
       "select": [
-        "#cms-help-content-results"
+        "#cms-help-content-results > div > div:first-child"
+      ],
+      "filter": [
+        "removeEQueryParam"
       ]
     },
     "Terms of Service": {
