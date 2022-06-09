@@ -140,6 +140,7 @@
         "div[aria-label=\"Copy link\"]",
         "[id='Articles connexes']",
         "[id='Related Articles']",
+        "nav[role=\"navigation\"]",
         "fieldset"
       ],
       "filter": [
@@ -183,6 +184,7 @@
         "div[aria-label=\"Copy link\"]",
         "[id='Articles connexes']",
         "[id='Related Articles']",
+        "nav[role=\"navigation\"]",
         "fieldset"
       ],
       "filter": [
