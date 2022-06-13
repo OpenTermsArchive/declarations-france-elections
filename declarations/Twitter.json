@@ -1,15 +1,17 @@
 {
   "name": "Twitter",
   "documents": {
-    "Terms of Service": {
+   "Terms of Service": {
       "fetch": "https://twitter.com/fr/tos",
-      "select": {
-        "startBefore": "#current",
-        "endBefore": ".u02"
-      },
+      "select": [
+        "#twtr-main"
+      ],
       "remove": [
-        ".ct07__sidebar",
-        ".ct07__dropdown-wrapper"
+        ".ct01__background-img",
+        ".twtr-hidden--lg",
+        ".ct07__dropdown-item",
+        ".ct07__side-nav",
+        "[aria-hidden=\"true\"]"
       ]
     },
     "Privacy Policy": {
