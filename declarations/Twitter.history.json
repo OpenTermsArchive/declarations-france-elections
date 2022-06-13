@@ -3,6 +3,20 @@
     {
       "fetch": "https://twitter.com/fr/tos",
       "select": [
+        "#twtr-main"
+      ],
+      "remove": [
+        ".ct01__background-img",
+        ".twtr-hidden--lg",
+        ".ct07__dropdown-item",
+        ".ct07__side-nav",
+        "[aria-hidden=\"true\"]"
+      ],
+      "validUntil": "2022-05-11T20:31:13+02:00"
+    },
+    {
+      "fetch": "https://twitter.com/fr/tos",
+      "select": [
         ".p22-chapters-container"
       ],
       "remove": [
@@ -13,6 +27,19 @@
     }
   ],
   "Privacy Policy": [
+    {
+      "fetch": "https://twitter.com/fr/privacy",
+      "select": {
+        "startBefore": "#old-policy",
+        "endBefore": ".u02"
+      },
+      "remove": [
+        ".ct17-banner-container",
+        "[aria-hidden=\"true\"]",
+        ".twtr-hidden--lg"
+      ],
+      "validUntil": "2022-05-16T14:31:11+02:00"
+    },
     {
       "fetch": "https://twitter.com/fr/privacy",
       "remove": [
