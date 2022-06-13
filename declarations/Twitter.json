@@ -1,7 +1,7 @@
 {
   "name": "Twitter",
   "documents": {
-   "Terms of Service": {
+    "Terms of Service": {
       "fetch": "https://twitter.com/fr/tos",
       "select": [
         "#twtr-main"
@@ -16,14 +16,20 @@
     },
     "Privacy Policy": {
       "fetch": "https://twitter.com/fr/privacy",
-      "select": {
-        "startBefore": "#old-policy",
-        "endBefore": ".u02"
-      },
+      "select": [
+        "#twtr-main"
+      ],
       "remove": [
-        ".ct17-banner-container",
+        ".ct01__background-img",
+        ".twtr-hidden--lg",
+        ".ct07__dropdown-item",
+        ".ct07__side-nav",
         "[aria-hidden=\"true\"]",
-        ".twtr-hidden--lg"
+        ".b04__image",
+        ".ct17-banner-container"
+      ],
+      "filter": [
+        "removeEmptyLinks"
       ]
     },
     "Community Guidelines": {

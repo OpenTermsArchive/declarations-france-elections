@@ -29,6 +29,19 @@
   "Privacy Policy": [
     {
       "fetch": "https://twitter.com/fr/privacy",
+      "select": {
+        "startBefore": "#old-policy",
+        "endBefore": ".u02"
+      },
+      "remove": [
+        ".ct17-banner-container",
+        "[aria-hidden=\"true\"]",
+        ".twtr-hidden--lg"
+      ],
+      "validUntil": "2022-05-16T14:31:11+02:00"
+    },
+    {
+      "fetch": "https://twitter.com/fr/privacy",
       "remove": [
         ".twtr-icon--base",
         ".p05-chapter-navigation",
