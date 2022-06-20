@@ -7,5 +7,26 @@
       ],
       "validUntil": "2022-05-28T12:52:00.000Z"
     }
+  ],
+  "Community Guidelines - Intellectual Property": [
+    {
+      "fetch": "https://help.instagram.com/126382350847838?locale2=fr_FR",
+      "select": [
+        "div[role=\"main\"]"
+      ],
+      "remove": [
+        "div[aria-label=\"Copier le lien\"]",
+        "div[aria-label=\"Copy link\"]",
+        "[id='Articles connexes']",
+        "[id='Related Articles']",
+        "nav[role=\"navigation\"]",
+        "fieldset"
+      ],
+      "filter": [
+        "removeTrackingIDs"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2022-06-17T16:15:00.000Z"
+    }
   ]
 }
