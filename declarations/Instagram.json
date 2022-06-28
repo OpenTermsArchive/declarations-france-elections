@@ -176,7 +176,7 @@
       ]
     },
     "Copyright Claims Policy": {
-      "fetch": "https://help.instagram.com/454257084652404",
+      "fetch": "https://help.instagram.com/454257084652404?locale=fr_FR",
       "select": [
         "div[role=\"main\"]"
       ],
