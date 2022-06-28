@@ -131,7 +131,7 @@
       ]
     },
     "Community Guidelines - Intellectual Property": {
-      "fetch": "https://help.instagram.com/126382350847838?locale2=fr_FR",
+      "fetch": "https://help.instagram.com/126382350847838?locale=fr_FR",
       "select": [
         "div[role=\"main\"]"
       ],
