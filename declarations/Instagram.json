@@ -2,7 +2,7 @@
   "name": "Instagram",
   "documents": {
     "Privacy Policy": {
-      "fetch": "https://help.instagram.com/519522125107875",
+      "fetch": "https://help.instagram.com/519522125107875/?maybe_redirect_pol=0&locale=fr_FR",
       "select": [
         "#cms-help-content-results > div > div:first-child"
       ],
@@ -11,7 +11,7 @@
       ]
     },
     "Terms of Service": {
-      "fetch": "https://help.instagram.com/581066165581870",
+      "fetch": "https://help.instagram.com/581066165581870/?maybe_redirect_pol=0&locale=fr_FR",
       "select": [
         "#cms-help-content-results > div > div:first-child"
       ],
@@ -131,7 +131,7 @@
       ]
     },
     "Community Guidelines - Intellectual Property": {
-      "fetch": "https://help.instagram.com/126382350847838?locale2=fr_FR",
+      "fetch": "https://help.instagram.com/126382350847838?locale=fr_FR",
       "select": [
         "div[role=\"main\"]"
       ],
@@ -176,7 +176,7 @@
       ]
     },
     "Copyright Claims Policy": {
-      "fetch": "https://help.instagram.com/454257084652404",
+      "fetch": "https://help.instagram.com/454257084652404?locale=fr_FR",
       "select": [
         "div[role=\"main\"]"
       ],
