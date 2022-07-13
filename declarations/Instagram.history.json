@@ -8,24 +8,75 @@
       "validUntil": "2022-05-28T12:52:00.000Z"
     }
   ],
-  "Community Guidelines - Intellectual Property": [
+  "Community Guidelines": [
     {
-      "fetch": "https://help.instagram.com/126382350847838?locale2=fr_FR",
+      "combine": [
+        {
+          "fetch": "https://help.instagram.com/477434105621119",
+          "select": [
+            ".bj",
+            ".bl"
+          ]
+        },
+        {
+          "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/suicide-self-injury/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/hate-speech/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/suicide-self-injury/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/child-sexual-exploitation-abuse-nudity/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/violence-incitement/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/dangerous-individuals-organizations/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/spam/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/regulated-goods/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/bullying-harassment/"
+        },
+        {
+          "fetch": "https://help.instagram.com/126382350847838?locale=fr_FR",
+          "remove": [
+            "div[aria-label=\"Copier le lien\"]",
+            "div[aria-label=\"Copy link\"]",
+            "[id='Articles connexes']",
+            "[id='Related Articles']",
+            "nav[role=\"navigation\"]",
+            "fieldset"
+          ],
+          "filter": [
+            "removeTrackingIDs"
+          ],
+          "executeClientScripts": true
+        },
+        {
+          "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/adult-nudity-sexual-activity/"
+        },
+        {
+          "fetch": "https://transparency.fb.com/fr-fr/policies/community-standards/sexual-solicitation/"
+        }
+      ],
       "select": [
-        "div[role=\"main\"]"
+        "._9nrm",
+        "._9p7c"
       ],
       "remove": [
-        "div[aria-label=\"Copier le lien\"]",
-        "div[aria-label=\"Copy link\"]",
-        "[id='Articles connexes']",
-        "[id='Related Articles']",
-        "nav[role=\"navigation\"]",
-        "fieldset"
+        "._9p72",
+        "svg",
+        "._9ooi",
+        "._9q3_"
       ],
-      "filter": [
-        "removeTrackingIDs"
-      ],
-      "executeClientScripts": true,
       "validUntil": "2022-06-17T16:15:00.000Z"
     }
   ]
