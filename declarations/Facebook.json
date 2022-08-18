@@ -9,10 +9,7 @@
         "removeLocaleFromUrls"
       ],
       "select": [
-        "div[role=\"main\"]"
-      ],
-      "remove": [
-        "._5tko"
+        "hr+div"
       ],
       "executeClientScripts": true
     },
