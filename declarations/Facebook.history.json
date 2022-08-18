@@ -16,5 +16,23 @@
       "executeClientScripts": true,
       "validUntil": "2022-06-20T04:30:15+04:00"
     }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://fr-fr.facebook.com/legal/terms/plain_text_terms",
+      "select": [
+        "div[role=\"main\"]"
+      ],
+      "remove": [
+        "footer[role=\"contentinfo\"]"
+      ],
+      "filter": [
+        "removeEmptyAnchorsLinks",
+        "removeTrackingIDs",
+        "removeLocaleFromUrls"
+      ],
+      "executeClientScripts": true,
+      "validUntil": "2022-08-18T10:30:43+04:00"
+    }
   ]
 }

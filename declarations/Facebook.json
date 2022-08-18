@@ -18,13 +18,16 @@
       "select": [
         "div[role=\"main\"]"
       ],
-      "remove": [
-        "footer[role=\"contentinfo\"]"
-      ],
       "filter": [
         "removeEmptyAnchorsLinks",
         "removeTrackingIDs",
         "removeLocaleFromUrls"
+      ],
+      "remove": [
+        {
+          "startBefore": "[role=\"separator\"]",
+          "endAfter": "body"
+        }
       ],
       "executeClientScripts": true
     },
