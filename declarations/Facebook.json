@@ -9,10 +9,7 @@
         "removeLocaleFromUrls"
       ],
       "select": [
-        "div[role=\"main\"]"
-      ],
-      "remove": [
-        "._5tko"
+        "hr+div"
       ],
       "executeClientScripts": true
     },
@@ -21,13 +18,16 @@
       "select": [
         "div[role=\"main\"]"
       ],
-      "remove": [
-        "footer[role=\"contentinfo\"]"
-      ],
       "filter": [
         "removeEmptyAnchorsLinks",
         "removeTrackingIDs",
         "removeLocaleFromUrls"
+      ],
+      "remove": [
+        {
+          "startBefore": "[role=\"separator\"]",
+          "endAfter": "body"
+        }
       ],
       "executeClientScripts": true
     },
