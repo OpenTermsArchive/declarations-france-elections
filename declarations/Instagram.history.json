@@ -3,27 +3,63 @@
     {
       "fetch": "https://help.instagram.com/519522125107875",
       "select": [
+        "[role=\"main\"]"
+      ],
+      "filter": [
+        "removeTrackingIDs"
+      ],
+      "validUntil": "2022-03-14T15:14:29.000Z"
+    },
+    {
+      "fetch": "https://help.instagram.com/519522125107875",
+      "select": [
         "#cms-help-content-results"
       ],
-      "validUntil": "2022-05-28T12:52:00.000Z"
+      "validUntil": "2022-05-26T12:30:28.000Z"
+    }
+  ],
+  "Terms of Service": [
+    {
+      "fetch": "https://help.instagram.com/581066165581870",
+      "select": {
+        "startBefore": "#cms-help-content-results, [role=\"main\"]",
+        "endBefore": "#cms-help-content-results form, [role=\"main\"] fieldset"
+      },
+      "remove": [
+        "[aria-label=\"Copier le lien\"]"
+      ],
+      "filter": [
+        "correctRedirectUrl",
+        "removeTrackingIDs",
+        "removeHelprefQueryParam",
+        "removeRefParam",
+        "removeEQueryParam",
+        "avoidUrlsBlink",
+        "replaceBlockquoteByParagraph",
+        "replaceTitleDivWithH1",
+        "removeSpans",
+        "removeLocaleQueryParam"
+      ],
+      "validUntil": "2022-09-10T15:14:31.000Z"
     }
   ],
   "Community Guidelines - Intellectual Property": [
     {
       "fetch": "https://help.instagram.com/126382350847838?locale2=fr_FR",
       "select": [
-        "div[role=\"main\"]"
+        {
+          "startBefore": "[role=\"main\"] h1",
+          "endBefore": "[role=\"main\"] form, [role=\"main\"] fieldset"
+        }
       ],
       "remove": [
-        "div[aria-label=\"Copier le lien\"]",
-        "div[aria-label=\"Copy link\"]",
-        "[id='Articles connexes']",
-        "[id='Related Articles']",
-        "nav[role=\"navigation\"]",
-        "fieldset"
+        "[aria-label=\"Copier le lien\"]",
+        "[aria-label=\"Copy link\"]"
       ],
       "filter": [
-        "removeTrackingIDs"
+        "correctRedirectUrl",
+        "removeTrackingIDs",
+        "removeHelprefQueryParam"
       ],
       "executeClientScripts": true,
       "validUntil": "2022-06-17T16:15:00.000Z"
