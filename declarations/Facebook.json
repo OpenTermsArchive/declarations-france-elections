@@ -6,7 +6,8 @@
       "filter": [
         "removeEmptyAnchorsLinks",
         "removeTrackingIDs",
-        "removeLocaleFromUrls"
+        "removeLocaleFromUrls",
+        "prefixUrlToFrenchVersions"
       ],
       "select": [
         "hr+div"
@@ -27,7 +28,8 @@
         {
           "startBefore": "[role=\"separator\"]",
           "endAfter": "body"
-        }
+        },
+        "[style=\"display:none\"]"
       ],
       "executeClientScripts": true
     },
