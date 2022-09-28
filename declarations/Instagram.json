@@ -2,21 +2,30 @@
   "name": "Instagram",
   "documents": {
     "Privacy Policy": {
-      "fetch": "https://help.instagram.com/519522125107875/?maybe_redirect_pol=0&locale=fr_FR",
+      "fetch": "https://mbasic.facebook.com/privacy/policy/printable/",
       "select": [
-        "#cms-help-content-results > div > div:first-child"
+        "#root"
       ],
       "filter": [
-        "removeEQueryParam"
+        "removeTrackingIDs"
       ]
     },
     "Terms of Service": {
       "fetch": "https://help.instagram.com/581066165581870/?maybe_redirect_pol=0&locale=fr_FR",
-      "select": [
-        "#cms-help-content-results > div > div:first-child"
+      "select": {
+        "startBefore": "#cms-help-content-results",
+        "endBefore": "#cms-help-content-results form"
+      },
+      "remove": [
+        "[aria-label=\"Copier le lien\"]"
       ],
       "filter": [
-        "removeEQueryParam"
+        "removeHelprefQueryParam",
+        "removeRefParam",
+        "removeEQueryParam",
+        "removeLocaleQueryParam",
+        "replaceTitleDivWithH1",
+        "replaceBlockquoteByParagraph"
       ]
     },
     "Community Guidelines": {
@@ -24,6 +33,9 @@
       "select": [
         ".bj",
         ".bl"
+      ],
+      "filter": [
+        "removeHelprefQueryParam"
       ]
     },
     "Community Guidelines - Self-harm": {
@@ -144,8 +156,10 @@
         "fieldset"
       ],
       "filter": [
+        "correctRedirectUrl",
         "removeTrackingIDs",
-        "removeEQueryParam"
+        "removeEQueryParam",
+        "removeHelprefQueryParam"
       ],
       "executeClientScripts": true
     },
@@ -189,7 +203,8 @@
         "fieldset"
       ],
       "filter": [
-        "removeTrackingIDs"
+        "removeTrackingIDs",
+        "removeHelprefQueryParam"
       ],
       "executeClientScripts": true
     }

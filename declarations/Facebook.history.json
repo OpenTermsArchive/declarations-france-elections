@@ -14,19 +14,21 @@
         "._5tko"
       ],
       "executeClientScripts": true,
-      "validUntil": "2022-07-13T00:30:32Z"
+      "validUntil": "2022-07-12T18:30:16.000Z"
     }
   ],
   "Terms of Service": [
     {
       "fetch": "https://fr-fr.facebook.com/legal/terms/plain_text_terms",
       "select": [
-        "div[role=\"main\"]"
-      ],
-      "remove": [
-        "footer[role=\"contentinfo\"]"
+        {
+          "startBefore": "[role=\"main\"]",
+          "endBefore": "[role=\"separator\"], footer"
+        }
       ],
       "filter": [
+        "correctRedirectUrl",
+        "replaceTitleDivWithH2",
         "removeEmptyAnchorsLinks",
         "removeTrackingIDs",
         "removeLocaleFromUrls"

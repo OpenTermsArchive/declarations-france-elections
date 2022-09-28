@@ -3,45 +3,24 @@
     {
       "fetch": "https://twitter.com/fr/tos",
       "select": [
-        "#twtr-main"
-      ],
-      "remove": [
-        ".ct01__background-img",
-        ".twtr-hidden--lg",
-        ".ct07__dropdown-item",
-        ".ct07__side-nav",
-        "[aria-hidden=\"true\"]"
-      ],
-      "validUntil": "2022-05-11T20:31:13+02:00"
-    },
-    {
-      "fetch": "https://twitter.com/fr/tos",
-      "select": [
         ".p22-chapters-container"
       ],
       "remove": [
         ".p05-chapter-navigation",
         "[style='display: none;']"
       ],
-      "validUntil": "2022-04-30T07:59:00.000Z"
+      "validUntil": "2022-05-06T00:31:10.000Z"
     }
   ],
   "Privacy Policy": [
     {
       "fetch": "https://twitter.com/fr/privacy",
-      "select": {
-        "startBefore": "#old-policy",
-        "endBefore": ".u02"
-      },
-      "remove": [
-        ".ct17-banner-container",
-        "[aria-hidden=\"true\"]",
-        ".twtr-hidden--lg"
+      "select": [
+        ".p02-statement-masthead",
+        ".p03-scrolling-checklist",
+        ".p22-chapters-container",
+        ".cr01-section"
       ],
-      "validUntil": "2022-05-16T14:31:11+02:00"
-    },
-    {
-      "fetch": "https://twitter.com/fr/privacy",
       "remove": [
         ".twtr-icon--base",
         ".p05-chapter-navigation",
@@ -49,13 +28,7 @@
         ".twtr-overlay__icon",
         ".p21-hidden-content"
       ],
-      "select": [
-        ".p02-statement-masthead",
-        ".p03-scrolling-checklist",
-        ".p22-chapters-container",
-        ".cr01-section"
-      ],
-      "validUntil": "2022-04-30T07:59:00.000Z"
+      "validUntil": "2022-05-06T00:31:11.000Z"
     }
   ]
 }
