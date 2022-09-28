@@ -1,6 +1,6 @@
 # Open Terms Archive - French elections
 
-These services declarations are maintained and tracked by [Open Terms Archive](https://opentermsarchive.org).
+These services declarations were maintained and tracked from February to September 2022 by [Open Terms Archive](https://opentermsarchive.org).
 
 These service declarations are consumed by the [Open Terms Archive engine](https://github.com/ambanum/OpenTermsArchive). See the Open Terms Archive [contribution guidelines](https://github.com/OpenTermsArchive/contrib-declarations/blob/main/CONTRIBUTING.md) to learn how to add and update services or documents.
 
