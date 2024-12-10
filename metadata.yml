@@ -1,0 +1,60 @@
+id: france-elections
+name: France Élections
+tagline: Major social media likely to impact the 2022 French elections
+description: |
+  The **France Elections** collection was created for the 2022 French presidential election.
+  
+  Its objective was to track the Community Guidelines of the five most widely used social media platforms in France, likely to have a systemic impact on the conduct and outcome of the elections.
+  
+  The collection was maintained and used by [Reset Tech](https://reset.tech/) to monitor interference in France's 2022 presidential and parliamentary elections and to produce the joint research report ["The French information ecosystem put to the test"](https://www.reset.tech/resources/elections-report-en-2022.pdf) with the Online Election Integrity Watch Group.
+  
+  This collection has not been updated since 2022 and should be considered as a database only.
+dataset: https://github.com/OpenTermsArchive/france-elections-versions/releases
+declarations: https://github.com/OpenTermsArchive/france-elections-declarations
+versions: https://github.com/OpenTermsArchive/france-elections-versions
+snapshots: https://github.com/OpenTermsArchive/france-elections-snapshots
+donations: https://opencollective.com/opentermsarchive
+logo: https://opentermsarchive.org/images/collections/france-elections.png
+languages: [fr]
+jurisdictions: [FR]
+trackingPeriods:
+  - startDate: 2022-03-14
+    endDate: 2022-09-01
+    schedule: "30 */6 * * *"
+    serverLocation: London, GB
+governance:
+  hosts:
+    - name: Open Terms Archive
+      url: https://opentermsarchive.org
+      logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
+  administrators:
+    - name: Open Terms Archive
+      url: https://opentermsarchive.org
+      logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
+  curators:
+    - name: Open Terms Archive
+      url: https://opentermsarchive.org
+      logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
+    - name: Reset Tech
+      url: https://reset.tech
+      logo: https://opentermsarchive.org/images/contributors/reset-tech.png
+  maintainers:
+    - name: Open Terms Archive
+      url: https://opentermsarchive.org
+      logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
+  sponsors:
+    - name: Reset Tech
+      url: https://reset.tech
+      logo: https://opentermsarchive.org/images/contributors/reset-tech.png
+
+i18n:
+  fr: 
+    tagline: Principaux médias sociaux susceptibles d’impacter les élections françaises de 2022
+    description: | 
+      La collection **France Elections** a été créée à l'occasion des élections présidentielles et législatives française de 2022.
+      
+      Son objectif était de suivre les règles communautaires des cinq plateformes de médias sociaux les plus utilisées en France, susceptibles d’avoir un impact systémique sur le déroulement et les résultats des élections.
+      
+      La collection a été maintenue et utilisée par [Reset Tech](https://reset.tech/) pour surveiller l'ingérence dans les élections et pour produire le rapport de recherche ["The French information ecosystem put to the test"](https://www.reset.tech/resources/elections-report-en-2022.pdf) conjointement avec le Online Election Integrity Watch Group.
+      
+      Cette collection n'a pas été mise à jour depuis septembre 2022.
