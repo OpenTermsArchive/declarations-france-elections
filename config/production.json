@@ -1,0 +1,48 @@
+{
+  "@opentermsarchive/engine": {
+    "recorder": {
+      "versions": {
+        "storage": {
+          "git": {
+            "snapshotIdentiferTemplate": "https://github.com/OpenTermsArchive/france-elections-snapshots/commit/%SNAPSHOT_ID",
+            "repository": "git@github.com:OpenTermsArchive/france-elections-versions.git",
+            "path": "./data/versions"
+          }
+        }
+      },
+      "snapshots": {
+        "storage": {
+          "git": {
+            "repository": "git@github.com:OpenTermsArchive/france-elections-snapshots.git",
+            "path": "./data/snapshots"
+          }
+        }
+      }
+    },
+    "fetcher": {
+      "language": "en"
+    },
+    "notifier": {
+      "sendInBlue": {
+        "updatesListId": 861,
+        "updateTemplateId": 56
+      }
+    },
+    "logger": {
+      "timestampPrefix": false
+    },
+    "tracker": {
+      "githubIssues": {
+        "repository": "OpenTermsArchive/france-elections-declarations"
+      }
+    },
+    "dataset": {
+      "title": "france-elections",
+      "versionsRepositoryURL": "https://github.com/OpenTermsArchive/france-elections-versions"
+    },
+    "collection-api": {
+      "port": 3000,
+      "basePath": "/collection-api"
+    }
+  }
+}

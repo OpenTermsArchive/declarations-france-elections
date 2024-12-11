@@ -1,0 +1,6 @@
+all:
+  hosts:
+    51.89.225.198:
+      ansible_user: debian
+      ed25519_fingerprint: AAAAC3NzaC1lZDI1NTE5AAAAIKKjqn0w980q4yeqogV0p06MQavEw7fzPR6rplT3kiLj
+      ota_source_repository: https://github.com/OpenTermsArchive/france-elections-declarations.git
