@@ -21,29 +21,14 @@ trackingPeriods:
     schedule: "30 */6 * * *"
     serverLocation: London, GB
 governance:
-  hosts:
-    - name: Open Terms Archive
-      url: https://opentermsarchive.org
-      logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
-  administrators:
-    - name: Open Terms Archive
-      url: https://opentermsarchive.org
-      logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
-  curators:
-    - name: Open Terms Archive
-      url: https://opentermsarchive.org
-      logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
-    - name: Reset Tech
-      url: https://reset.tech
-      logo: https://opentermsarchive.org/images/contributors/reset-tech.png
-  maintainers:
-    - name: Open Terms Archive
-      url: https://opentermsarchive.org
-      logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
-  sponsors:
-    - name: Reset Tech
-      url: https://reset.tech
-      logo: https://opentermsarchive.org/images/contributors/reset-tech.png
+  Open Terms Archive:
+    url: https://opentermsarchive.org
+    logo: https://opentermsarchive.org/images/logo/logo-open-terms-archive-black-small.png
+    roles: [host, administrator, curator, maintainer]
+  Reset Tech:
+    url: https://reset.tech
+    logo: https://opentermsarchive.org/images/contributors/reset-tech.png
+    roles: [curator, sponsor]
 
 i18n:
   fr: 
